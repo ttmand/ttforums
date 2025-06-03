@@ -73,7 +73,7 @@ a:active
   font-size: 18px; 
 }
 
-#myBtn:hover {
+#btop:hover {
   background-color: red;
 }  
     
@@ -369,7 +369,7 @@ a:active
 <p>Thanks to Gentleman for providing most of the competition threads</p>
 <p>Thanks to Mashin for providing some additional threads</p>
 <p>Thanks to the TankTrouble Community for all the feedback!</p>
-    <button onclick="top()" id="btop" title="Back To Top">Back To Top</button>
+    <button onclick="totop()" id="btop" title="Back To Top">Back To Top</button>
     <script>
 
       let backtotop = document.getElementById("btop");
@@ -389,7 +389,8 @@ function show()
 }
 
 
-function top() {
+function totop()
+  {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
